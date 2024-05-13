@@ -86,9 +86,12 @@ The encrypted data is a standard Android OTA update zip file. The transformation
 
 The encryption key is stored in plain text at `/vendor/usr/data/icx_nvp.cfg` as a 48 character long ASCII text. The first 32 bytes are the AES key and the next 16 bytes are the initialisation vector. NW-A100 series and NW-ZX500 series has different keys.
 
-### Key Combo to Fastboot Mode
+### Key Combo to Any Modes
 
-Hold Vol- & FF when powering on.
+- If you want to go Fastboot Mode, hold Vol+ & RW when powering on.  
+
+- If you want to go Recovery Mode, hold Vol- & FF when powering on.  
+  And press 2～5 times Vol+ & Power, you'll go to recovery menu([Special Thanks to this guide](https://www.youtube.com/watch?v=8yYyhf-2vWw)).  
 
 ### NVP
 
