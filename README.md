@@ -90,7 +90,7 @@ The encryption key is stored in plain text at `/vendor/usr/data/icx_nvp.cfg` as 
 
 - If you want to go Fastboot Mode, hold Vol+ & RW when powering on.  
 
-- If you want to go Recovery Mode, hold Vol- & FF when powering on.  
+- If you want to go Recovery Mode, hold Vol- & FF when powering on. ~~Bugdroid is undergoing open surgery.~~  
   And press 2～5 times Vol+ & Power, you'll go to recovery menu([Special Thanks to this guide](https://www.youtube.com/watch?v=8yYyhf-2vWw)).  
 
 ### NVP
