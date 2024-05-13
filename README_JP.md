@@ -94,9 +94,12 @@ UAE、SEA、HK、SKおよびオセアニア市場向けに、ZX500のボリュ�
 【訳者追記】[こちらの記事](https://note.com/forsaken_love02/n/nbfe0c8f87f3c)に一通りの事はまとめました。  
 【For English Users】Please read [this article](https://note.com/forsaken_love02/n/nbfe0c8f87f3c). If you can't read japanese, use translate app.  
 
-### Fastbootに入るボタンコンボ
-電源オン時にVol-とFFを押し続けます。
+### 特殊Bootモードに入るボタンコンボ
+- Fastbootモードに入るには、電源オン時にVol+とRWを押し続けます。  
+- Recoveryモードに入るには、電源オン時にVol-とFFを押し続けます。  
+  開腹されたドロイド君の画面で更にVol+と電源ボタンを数回(2～5回)押すことで、Recoveryの詳細なメニューに入ることができます。
 
+※Recoveryモードの操作は[こちらの動画](https://www.youtube.com/watch?v=8yYyhf-2vWw)を参考にさせていただきました。ありがとうございます。
 ### アップデート用ファームウェアファイルについて  
 ファームウェアアップデートファイルの最初の128バイトには、ファイルのmagicとSHA-228ダイジェストを含まれています。  
 最初のバイトはmagic"NWWM "で、次の56バイトはASCII 16進数で格納されたSHA-224ダイジェストです。残りは不明です。  
